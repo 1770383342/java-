@@ -1,5 +1,17 @@
 
-class Dog2 extends Animla {
+/**
+ * 动物类
+ */
+class Animla3 {
+
+    String name = "动物"; //定义name属性
+
+    void speak() {
+        System.out.println("动物发出叫声");
+    }
+}
+
+class Dog2 extends Animla3 {
     String name = "犬类";
 
     /**
