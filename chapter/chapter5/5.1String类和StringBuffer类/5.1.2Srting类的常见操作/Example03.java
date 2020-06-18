@@ -9,7 +9,7 @@ public class Example03 {
         char[] charArray = str.toCharArray();
         for (int i = 0; i < charArray.length; i++) {
             if (i != charArray.length - 1) {
-                // 如果不算数组的最后一个约束，在元素前面加逗号
+                // 如果不是数组的最后一个元素，在元素前面加逗号
                 System.out.println(charArray[i] + ",");
             } else {
                 // 数组的最后以后元素后面不加逗号
