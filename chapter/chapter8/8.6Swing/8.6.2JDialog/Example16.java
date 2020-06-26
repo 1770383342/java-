@@ -2,6 +2,7 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+
 import java.awt.event.*;
 import java.awt.*;
 
@@ -55,7 +56,7 @@ public class Example16 {
                     dialog.add(label);
                 }
                 // 否则修改标签的内容
-                label.setText("模式对话框，点击确定按钮关闭");
+                label.setText("非模式对话框，点击确定按钮关闭");
                 // 显示对话框
                 dialog.setVisible(true);
             }
