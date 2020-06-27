@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.awt.*;
 
 public class Example02 {
@@ -9,12 +10,12 @@ public class Example02 {
         f.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 30));
         f.setSize(300, 400);
         f.setLocation(800, 300);
-        f.add(new Button("第1个按钮"));
-        f.add(new Button("第2个按钮"));
-        f.add(new Button("第3个按钮"));
-        f.add(new Button("第4个按钮"));
-        f.add(new Button("第5个按钮"));
-        f.add(new Button("第6个按钮"));
+        f.add(new JButton("第1个按钮"));
+        f.add(new JButton("第2个按钮"));
+        f.add(new JButton("第3个按钮"));
+        f.add(new JButton("第4个按钮"));
+        f.add(new JButton("第5个按钮"));
+        f.add(new JButton("第6个按钮"));
         f.setVisible(true);
     }
 }
