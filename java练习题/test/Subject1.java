@@ -7,7 +7,7 @@ public class Subject1 {
     public static void main(String[] args) {
 
         // int a = 5;
-        // System.out.println(factorial(a));
+        // System.out.println(factorial1(a));
         long n = 0;
 
         for (int i = 1; i <= 20; i++) {
@@ -29,5 +29,13 @@ public class Subject1 {
         } else {
             return factorial(a - 1) * a;
         }
+    }
+
+    public static long factorial1(int a) {
+        long sum = 1;
+        for (int i = 1; i <= a; i++) {
+            sum = sum * i;
+        }
+        return sum;
     }
 }
